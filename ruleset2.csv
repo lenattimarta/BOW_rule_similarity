@@ -1,0 +1,11 @@
+RULE 1: IF 81.130756 < Age <= 84.536621 THEN class = "1 fail", COVERING: 0.588670, ERROR: 0.043147
+RULE 2: IF srt <= -7.247382 AND #correct > 62.437859 AND 1.078678 < avg_reaction_time <= 3.040640 THEN class = "0 pass", COVERING: 0.565990, ERROR: 0.049261
+RULE 3: IF -18.185668 < srt <= -2.447426 AND 23.723455 < Age <= 80.900963 THEN class = "0 pass", COVERING: 0.505076, ERROR: 0.049261
+RULE 4: IF avg_reaction_time > 3.289759 THEN class = "1 fail", COVERING: 0.463054, ERROR: 0.048223
+RULE 5: IF srt > -1.658821 AND Age > 42.986900 AND #correct <= 98.359684 AND 1.609334 < avg_reaction_time <= 3.282640 THEN class = "1 fail", COVERING: 0.428571, ERROR: 0.048223
+RULE 6: IF -7.031227 < srt <= 12.717399 AND Age <= 66.281487 THEN class = "0 pass", COVERING: 0.271574, ERROR: 0.029557
+RULE 7: IF -18.550458 < srt <= 16.962336 AND 90.126972 < %correct <= 90.742275 AND avg_reaction_time <= 3.833735 AND 147.499687 < total_test_time <= 329.639465 AND 0.568987 < volume <= 0.657449 THEN class = "0 pass", COVERING: 0.091371, ERROR: 0.049261
+RULE 8: IF 92.280384 < trials <= 101.164536 AND 81.421574 < %correct <= 89.826405 AND volume <= 0.571117 THEN class = "1 fail", COVERING: 0.044335, ERROR: 0.040609
+RULE 9: IF trials > 82.704102 AND #correct <= 94.710342 AND 86.955532 < %correct <= 91.355446 AND volume > 0.627779 THEN class = "1 fail", COVERING: 0.039409, ERROR: 0.043147
+RULE 10: IF 81.459873 < Age <= 83.118267 AND #correct > 74.144833 AND avg_reaction_time > 3.736393 THEN class = "0 pass", COVERING: 0.012690, ERROR: 0.012315
+RULE 11: IF 1.049445 < avg_reaction_time <= 1.624913 AND 0.604794 < volume <= 0.618289 THEN class = "1 fail", COVERING: 0.012315, ERROR: 0.035533

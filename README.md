@@ -13,6 +13,7 @@ This repository includes:
 - a Python notebook for the definition and application of the proposed rule similarity measure
 - two examples of rulesets extracted from LLM (Logic Learning Machine) models trained on synthetic hearing screening data
 - an example of synthetic dataset 
+
 Note: The proposed examples are based on dummy data. Thus, results obtained with these rulesets will not coincide with published results on real data.
 
 ### Technologies

@@ -1,5 +1,7 @@
 # BOW_rule_similarity
-Python codes (v 3.8.7) for comparing set of rules extracted from classification models, related to the manuscript entitled “Characterization of Synthetic Health Data through Rule-based Artificial Intelligence Models” by Marta Lenatti, Alessia Paglialonga, Vanessa Orani, Melissa Ferretti, and Maurizio Mongelli submitted to the IEEE Journal of Biomedical and Health Informatics, Special Issue Advanced machine learning algorithms for biomedical data and imaging. 
+Python codes (v 3.8.7) for comparing set of rules extracted from classification models, related to: 
+
+M. Lenatti, A. Paglialonga, V. Orani, M. Ferretti and M. Mongelli, "Characterization of Synthetic Health Data Using Rule-Based Artificial Intelligence Models," in IEEE Journal of Biomedical and Health Informatics, vol. 27, no. 8, pp. 3760-3769, Aug. 2023, doi: 10.1109/JBHI.2023.3236722.
 
 The proposed measure of rule similarity relies on a Bag of Words representation of the rules coupled with cosine similarity and takes into account rules structure, cut-off values and rules covering.
 
